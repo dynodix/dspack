@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.dproj,D:\Prog\Delphi 2010 Components\DSPack\packages\DSPack_.dproj=D:\Prog\Delphi 2010 Components\DSPack\packages\DSPackPkg.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.dproj,D:\Prog\Delphi 2010 Components\DSPack\packages\DSPack_D14.dproj=D:\Prog\Delphi 2010 Components\DSPack\packages\DSPac.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.dproj,D:\Prog\Delphi 2010 Components\DSPack\packages\DSPack_.dproj=D:\Prog\Delphi 2010 Components\DSPack\packages\DSPackR.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.dproj,F:\Prog\Delphi 2009 Components\DSPack\packages\DSPack_D10.dproj=F:\Prog\Delphi 2009 Components\DSPack\packages\DSPack_D12.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.pas,F:\Prog\Delphi 2009 Components\DSPack\src\DSPack\DSUtil.pas=F:\Prog\Delphi 2009 Components\DSPack\src\DSPack\DSUtils.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.dproj,D:\Prog\Delphi 2010 Components\DSPack\packages\DSPack_D12.dproj=D:\Prog\Delphi 2010 Components\DSPack\packages\DSPack_D14.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.dproj,D:\Prog\Delphi 2010 Components\DSPack\packages\DSPac.dproj=D:\Prog\Delphi 2010 Components\DSPack\packages\DSPack_.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.dcr,D:\Prog\Delphi 2010 Components\DSPack\packages\DSPack.dcr=</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.bdsproj,D:\Prog\Delphi 2006 Components\DSPack\packages\DSPack_D9.bdsproj=D:\Prog\Delphi 2006 Components\DSPack\packages\DSPack_D10.bdsproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.dproj,D:\Prog\Delphi 2010 Components\DSPack\packages\DSPackPkg.dproj=D:\Prog\Delphi 2010 Components\DSPack\packages\DSPack_.dproj</Transaction>
+    <Transaction>2018/09/12 21:07:43.000.148,C:\MyTokyoProjects\dspack\src\DSPack\DSPack.pas=C:\MyTokyoProjects\dspack\src\DSPack\DXSPack.pas</Transaction>
+    <Transaction>2018/09/12 21:08:01.000.036,C:\MyTokyoProjects\dspack\src\DSPack\DXSPack.pas=C:\MyTokyoProjects\dspack\src\DSPack\DSPack.pas</Transaction>
+  </Transactions>
+</BorlandProject>

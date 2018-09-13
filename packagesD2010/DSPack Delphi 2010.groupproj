@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{A779CD6B-0C3F-46BA-93B1-0C77B4954EC2}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="DirectX9_.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DSPackDesign.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DSPackR.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DirectX9_">
+			<MSBuild Projects="DirectX9_.dproj"/>
+		</Target>
+		<Target Name="DirectX9_:Clean">
+			<MSBuild Targets="Clean" Projects="DirectX9_.dproj"/>
+		</Target>
+		<Target Name="DirectX9_:Make">
+			<MSBuild Targets="Make" Projects="DirectX9_.dproj"/>
+		</Target>
+		<Target Name="DSPackDesign">
+			<MSBuild Projects="DSPackDesign.dproj"/>
+		</Target>
+		<Target Name="DSPackDesign:Clean">
+			<MSBuild Targets="Clean" Projects="DSPackDesign.dproj"/>
+		</Target>
+		<Target Name="DSPackDesign:Make">
+			<MSBuild Targets="Make" Projects="DSPackDesign.dproj"/>
+		</Target>
+		<Target Name="DSPackR">
+			<MSBuild Projects="DSPackR.dproj"/>
+		</Target>
+		<Target Name="DSPackR:Clean">
+			<MSBuild Targets="Clean" Projects="DSPackR.dproj"/>
+		</Target>
+		<Target Name="DSPackR:Make">
+			<MSBuild Targets="Make" Projects="DSPackR.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DirectX9_;DSPackDesign;DSPackR"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DirectX9_:Clean;DSPackDesign:Clean;DSPackR:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DirectX9_:Make;DSPackDesign:Make;DSPackR:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
