@@ -1,0 +1,2 @@
+Important note , in the package files options,
+change the LIBSUFFIX to match delphi suffix versions,
